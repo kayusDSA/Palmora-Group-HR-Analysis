@@ -45,17 +45,59 @@ So, the employees without gender was given Undisclosed using Replace Values. See
 Some employees are without salary because they are no longer with the company. Hence, these employees need to be taken out of the organization’s profile.
 
 
-These employees can be taken out of the organization’s profile thus: Highlight on the Salary column and click on filter icon and uncheck the NULL. The rows reduced to 946 [See preview below;] 
+These employees can be taken out of the organization’s profile thus: Highlight on the Salary column and click on filter icon and uncheck the NULL. The rows reduced to 946 [See preview below] 
 
 
 
 
 
 **Department Column**
+
 Some departments are indicated as “NULL”. These departments would also need to be taken out.
-There are few rows that have a “NULL” text in the column. So, departments with NULL were removed by unchecking the NULL from the list of departments through filter. The rows reduced to 946 from 972 rows [See preview below;] 
+There are few rows that have a “NULL” text in the column. So, departments with NULL were removed by unchecking the NULL from the list of departments through filter. The rows reduced to 946 from 972 rows [See preview below] 
+
+**Region**
+How regions are derived from the locations column, using Conditional Column.
 
 
+Column for Regions is created using Conditional Column
 
 
 ### Data Analysis
+
+In other to answer the key questions needed to make the business decisions, there is a need to analyze the data provided to gain insights which will then be visualized to effectively communicate to management of the Palmoria Group.
+
+### 1.	What is the gender distribution in the organization? Distil to regions and departments
+
+Gender distribution across different regions in a Power BI dashboard, a clustered column chart or a 100% stacked column chart can be used
+
+### 2. Show insights on ratings based on gender 
+
+
+### 3. Analyse the company’s salary structure. Identify if there is a gender pay gap. 
+### If there is, identify the department and regions that should be the focus of management
+
+**Gender Pay Gap Calculation:** 
+To determine Gender Pay Gap, average salary measures for male and female within each comparable job role is calculate using **DAX FUNCTIONS**
+
+a)	Employee Average Salaries: 
+```
+Average Salary = AVERAGE('HR ANALYSIS'[Salary])
+```    
+b)	Gender-Specific (Male and Female) Average Salary Measures:
+```
+Average Salary (Male) CALCULATE(AVERAGE('HR ANALYSIS'[Salary]), 'HR ANALYSIS'[Gender] = "Male"
+```
+```
+Average Salary (Female) = CALCULATE(AVERAGE('HR ANALYSIS'[Salary]), 'HR  ANALYSIS'[Gender] = "Female")
+```
+c)	The Gender Pay Gap Percentage Calculation: 
+This is calculated by subtracting the average salary of women from the average salary of men, and divide the result by the average salary of men. Multiply by 100 to express it as a percentage using NEW MEASURES as follows:
+
+```
+Gender Pay Gaps (%) = 'HR ANALYSIS'[Avg Salary (Female)]- 'HR ANALYSIS'[Avg Salary (Female)] / 'HR ANALYSIS'[Avg Salary (Male)] * 100
+```
+
+
+
+   
