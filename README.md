@@ -36,29 +36,33 @@ One of the issues identified during the data cleaning process was with the “Ge
 
 Gender Column Before Cleaning
 
+![GENDER COL BF CLEANING](https://github.com/user-attachments/assets/41915077-d1d6-4c5a-85cd-22f8ffa166f2)
+
 Gender Column contains blanks. There is an instruction from the company: there is a need to assign a generic gender status to these employees.
 So, the employees without gender was given Undisclosed using Replace Values. See prewieve below:
 
+![REPLACE VALUES](https://github.com/user-attachments/assets/52a681f4-e5e4-4844-ba7d-72f78d908f77)
+
+![GENDER AFTER CLEANING](https://github.com/user-attachments/assets/ee8bb8db-e572-46a2-8554-f84aa23b4cd5)
 
 **Salary Column**
 
 Some employees are without salary because they are no longer with the company. Hence, these employees need to be taken out of the organization’s profile.
 
+![SALARY BEFORE CLEANING](https://github.com/user-attachments/assets/837ec836-c1ea-40cc-b852-ac6a56937e4c)
 
 These employees can be taken out of the organization’s profile thus: Highlight on the Salary column and click on filter icon and uncheck the NULL. The rows reduced to 946 [See preview below] 
 
-
-
-
+![SALARY AFTER CLEANING](https://github.com/user-attachments/assets/70ee6d61-2882-4fc9-ac37-fb26114c5a8b)
 
 **Department Column**
 
 Some departments are indicated as “NULL”. These departments would also need to be taken out.
 There are few rows that have a “NULL” text in the column. So, departments with NULL were removed by unchecking the NULL from the list of departments through filter. The rows reduced to 946 from 972 rows [See preview below] 
 
+![DPT](https://github.com/user-attachments/assets/a4d2f00f-475d-44c4-b561-996a54a197d0)
 
-
-### Data Analysis
+### Data Analyses
 
 In other to answer the key questions needed to make the business decisions, there is a need to analyze the data provided to gain insights which will then be visualized to effectively communicate to management of the Palmoria Group.
 
@@ -92,17 +96,33 @@ This is calculated by subtracting the average salary of women from the average s
 ```
 Gender Pay Gaps (%) = 'HR ANALYSIS'[Avg Salary (Female)]- 'HR ANALYSIS'[Avg Salary (Female)] / 'HR ANALYSIS'[Avg Salary (Male)] * 100
 ```
+<img width="468" alt="GENDER PAY GAP" src="https://github.com/user-attachments/assets/ed0f26a2-9971-46e4-85da-3156f4f62d3b" />
+
+<img width="536" alt="GENDER PAY GAP ABJ" src="https://github.com/user-attachments/assets/e12536c0-1e55-4a2b-b581-5f18de62d3bd" />
+
+<img width="563" alt="GENDER PAY GAY K AND LAG" src="https://github.com/user-attachments/assets/72c5386c-79a4-4fce-969d-8e46c6e2d8dd" />
+
+**Top Priority Areas for Management**
+1.	Engineering Department (in all 3 regions)
+- Gap ranges from 12.09% (Lagos) to 34.63% (Kaduna)
+- Consistent and severe inequality
+2.	Research & Development (Abuja and Lagos)
+- Gaps over 19%
+3.	Legal and Training (Abuja and Kaduna)
+- Regular disparities that must be addressed
+4.	Services and Business Development (Abuja & Kaduna)
+
 ### 4. A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000 
 ### a) Does Palmoria meet this requirement? 
 
+<img width="342" alt="SALARY BAND BY GENDER" src="https://github.com/user-attachments/assets/1ae149c6-ccec-4ade-a527-35804d1ad2ba" />
 
-Based on the above visual "Salary Band by Gender", we can analyze whether The Palmoria Group meets the new regulation that requires a minimum salary of $90,000 for all employees.
-
+Based on the above visual "Salary Band by Gender", we can analyze whether The Palmoria Group meets the new regulation that requires a minimum salary of $90,000 for all employees
 
 **Summary of Salary Distribution**
 Out of a total of 946 employees, here is how many employees fall below $90,000:
 
-
+<img width="467" alt="Q4" src="https://github.com/user-attachments/assets/8290f037-7084-475b-b945-5037d9eba7d0" />
 
 The salary distribution shows that Palmoria does not meet the the new regulation requirement: Only 292 out of 946 employees (≈31%) earn at or above the $90,000 minimum threshold. This means approximately 69% of employees are currently underpaid according to the regulation.
 
@@ -123,14 +143,19 @@ Salary Band = SWITCH(TRUE(), 'HR ANALYSIS'[Salary] < 10000, "<$10000",
     'HR ANALYSIS'[Salary] > 100000 && 'HR ANALYSIS'[Salary] <= 110000, "$100000-$110000",
     'HR ANALYSIS'[Salary] > 110000 && 'HR ANALYSIS'[Salary] <= 120000, "$110000-$120000", BLANK())
 ```
+![FULL SALARY BAND](https://github.com/user-attachments/assets/24817e6c-2a83-48ce-aa5d-c96cf87f58dc)
 
+<img width="98" alt="SALARY BAND" src="https://github.com/user-attachments/assets/96187e2c-df4a-4ec2-907b-729c3e9de7f3" />
 
 ### 4c. How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.? 
 
+<img width="342" alt="SALARY BAND BY GENDER" src="https://github.com/user-attachments/assets/1e56d0d9-039c-44cd-8d11-2218a1b68948" />
 
+<img width="467" alt="Q4" src="https://github.com/user-attachments/assets/f76b9bc7-de38-4c48-b3a7-337cef74c9f6" />
 
 ### 4d. Also visualize this by regions 
 
+<img width="347" alt="SALARY BAND BY REGION" src="https://github.com/user-attachments/assets/83b353ae-bb44-4e78-b4e5-876a9d5a641d" />
 
 
 
