@@ -160,6 +160,9 @@ Tables above shows the number of employees that fall into salary band.
 
 <img width="347" alt="SALARY BAND BY REGION" src="https://github.com/user-attachments/assets/83b353ae-bb44-4e78-b4e5-876a9d5a641d" />
 
+<img width="702" alt="DASHBOARD" src="https://github.com/user-attachments/assets/903590ce-d062-4fea-9d3f-5cbf94cfb5cc" />
+
+
 ### Findings of the Study
 
 The study reveals that there is a Gender Imbalance. That is, gender distribution varies significantly across regions and departments:
