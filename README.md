@@ -56,11 +56,6 @@ These employees can be taken out of the organization’s profile thus: Highlight
 Some departments are indicated as “NULL”. These departments would also need to be taken out.
 There are few rows that have a “NULL” text in the column. So, departments with NULL were removed by unchecking the NULL from the list of departments through filter. The rows reduced to 946 from 972 rows [See preview below] 
 
-**Region**
-How regions are derived from the locations column, using Conditional Column.
-
-
-Column for Regions is created using Conditional Column
 
 
 ### Data Analysis
@@ -97,6 +92,47 @@ This is calculated by subtracting the average salary of women from the average s
 ```
 Gender Pay Gaps (%) = 'HR ANALYSIS'[Avg Salary (Female)]- 'HR ANALYSIS'[Avg Salary (Female)] / 'HR ANALYSIS'[Avg Salary (Male)] * 100
 ```
+### 4. A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000 
+### a) Does Palmoria meet this requirement? 
+
+
+Based on the above visual "Salary Band by Gender", we can analyze whether The Palmoria Group meets the new regulation that requires a minimum salary of $90,000 for all employees.
+
+
+**Summary of Salary Distribution**
+Out of a total of 946 employees, here is how many employees fall below $90,000:
+
+
+
+The salary distribution shows that Palmoria does not meet the the new regulation requirement: Only 292 out of 946 employees (≈31%) earn at or above the $90,000 minimum threshold. This means approximately 69% of employees are currently underpaid according to the regulation.
+
+### 4b. Show the pay distribution of employees grouped by a band of $10,000. For example: 
+Data Analysis Expression (DAX) is used to create a salary band of $10,000 for the employees to know each employee's salary band. This is achieved by using the 'SWITCH COMMAND'.
+The below is the Data Analysis Expression (DAX) used to create a salary band of $10,000 for the employees to know each employee's salary band and the employee's salary band using the 'SWITCH COMMAND'.
+```
+Salary Band = SWITCH(TRUE(), 'HR ANALYSIS'[Salary] < 10000, "<$10000",
+    'HR ANALYSIS'[Salary] >= 10000 && 'HR ANALYSIS'[Salary] <= 20000, "$10000-$20000",
+    'HR ANALYSIS'[Salary] > 20000 && 'HR ANALYSIS'[Salary] <= 30000, "$20000-$30000",
+    'HR ANALYSIS'[Salary] > 30000 && 'HR ANALYSIS'[Salary] <= 40000, "$30000-$40000",
+    'HR ANALYSIS'[Salary] > 40000 && 'HR ANALYSIS'[Salary] <= 50000, "$40000-$50000",
+    'HR ANALYSIS'[Salary] > 50000 && 'HR ANALYSIS'[Salary] <= 60000, "$50000-$60000",
+    'HR ANALYSIS'[Salary] > 60000 && 'HR ANALYSIS'[Salary] <= 70000, "$60000-$70000",
+    'HR ANALYSIS'[Salary] > 70000 && 'HR ANALYSIS'[Salary] <= 80000, "$70000-$80000",
+    'HR ANALYSIS'[Salary] > 80000 && 'HR ANALYSIS'[Salary] <= 90000, "$80000-$90000",
+    'HR ANALYSIS'[Salary] > 90000 && 'HR ANALYSIS'[Salary] <= 100000, "$90000-$100000",
+    'HR ANALYSIS'[Salary] > 100000 && 'HR ANALYSIS'[Salary] <= 110000, "$100000-$110000",
+    'HR ANALYSIS'[Salary] > 110000 && 'HR ANALYSIS'[Salary] <= 120000, "$110000-$120000", BLANK())
+```
+
+
+### 4c. How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.? 
+
+
+
+### 4d. Also visualize this by regions 
+
+
+
 
 
 
