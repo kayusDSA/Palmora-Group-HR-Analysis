@@ -1,5 +1,27 @@
 ### Project Topic 
-Bridging the Gap: A Gender Equality Analysis of The Palmoria Group’s Workforce
+Bridging the Gap: A Gender Equality Analysis of The Palmoria Group’s Workforce (Case Study of Palmora Group HR Analysis)
+
+### Table of Content
+1. Description
+2. Project Overview
+3. Data Source
+4. Tool Used
+5. Data Cleaning and Preparation
+6. Exploratory Data Analysis
+- Data Understanding
+- Data Preparation
+- Text Cleaning
+7. Data Analyses
+i. What is the gender distribution in the organization? Distil to regions and departments
+ii. Show insights on ratings based on gender
+iii. Analyze the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management
+iv. A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000.
+- Does Palmoria meet this requirement?
+- Show the pay distribution of employees grouped by a band of $10,000.
+- How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.?
+v. Also visualize this by regions
+8. Findings of the Study
+9. Recommendations
 
 ### Description
 The Palmoria Group, a Nigeria-based manufacturing company with operations across three regions, is currently facing intense public scrutiny over allegations of gender inequality. The controversy gained widespread attention following a media headline labelling the company “Palmoria, the Manufacturing Patriarchy.” This development poses a significant threat to the company’s long-term vision of regional and international expansion, as well as its corporate reputation. This study will address this issue in order to promote gender equality in Palmoria Group.
@@ -21,14 +43,14 @@ From the overview of datasets displayed above, it’s important and necessary we
 
 ### Exploratory Data Analysis
 
-**DATA UNDERSTANDING**
+**Data Understanding**
 A Microsoft Excel Worksheet (csv) dataset was provided for analysis consisting of 1016 rows and 6 columns.
 The Palmoria Data workbook consist of the Name, Gender, Department, Salary, Location and Rating.
 
-**DATA PREPARATION**
+**Data Preparation**
 The Power query tool in Power BI is used to get and transform data for appropriate analysis. Upon clicking Transform Data and navigating to power query window, I explored the data composition in order to know if any necessary data cleaning is needed by leveraging the Data Profiling Distributor feature which gives a summary of the column quality, distribution and profile.
 
-### Text Cleaning:
+**Text Cleaning**
 
 **Gender Column**
 One of the issues identified during the data cleaning process was with the “Gender” column. The column contains male, female and blanks. So, I replaced the blanks with Undisclosed. The power query replaced values was used. [See preview below;]
@@ -160,7 +182,6 @@ Tables above shows the number of employees that fall into salary band.
 
 <img width="702" alt="DASHBOARD" src="https://github.com/user-attachments/assets/903590ce-d062-4fea-9d3f-5cbf94cfb5cc" />
 
-
 ### Findings of the Study
 
 The study reveals that there is a Gender Imbalance. That is, gender distribution varies significantly across regions and departments:
@@ -180,7 +201,6 @@ Only 292 out of 946 employees (~31%) meet this requirement.
 
 On Salary Band Distribution, largest group of employees fall into $70,000–$80,000 and $80,000–$90,000 bands. while few employees are in the highest bands ($110,000–$120,000). 
 There is also a clear salary clustering under the $90,000 mark — highlights structural compensation issues.
-
 
 ### Recommendations
 1. Based on the findings of the study, the following recommendations are provided management’s attention.
