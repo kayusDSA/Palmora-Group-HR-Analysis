@@ -17,6 +17,7 @@ Microsoft Power BI (For creating report). It can be [downloaded here](https://ww
 
 ### Data Cleaning and Preparation
 
+![DATA OVERVIEW](https://github.com/user-attachments/assets/a55dfbcb-1e9d-45e0-bb8a-ebecbd6ebabb)
 
 From the overview of datasets displayed above, it’s important and necessary we prepare the datasets before analysis and visualization is carried out.
 
@@ -153,10 +154,58 @@ Salary Band = SWITCH(TRUE(), 'HR ANALYSIS'[Salary] < 10000, "<$10000",
 
 <img width="467" alt="Q4" src="https://github.com/user-attachments/assets/f76b9bc7-de38-4c48-b3a7-337cef74c9f6" />
 
+Tables above shows the number of employees that fall into salary band.
+
 ### 4d. Also visualize this by regions 
 
 <img width="347" alt="SALARY BAND BY REGION" src="https://github.com/user-attachments/assets/83b353ae-bb44-4e78-b4e5-876a9d5a641d" />
 
+### Findings of the Study
+
+The study reveals that there is a Gender Imbalance. That is, gender distribution varies significantly across regions and departments:
+A substantial underrepresentation of women in some technical departments like Engineering and R&D.
+
+Also, there is a Gender Pay Gap: Significant disparities in average salaries between male and female employees. In other words,
+There are top departments with gender pay gaps. Such as
+Engineering: Worst affected (up to 34.63% gap in Kaduna).
+Research & Development: Over 19% gap in Abuja and Lagos.
+Legal and Training: High disparities in Abuja and Kaduna.
+Services and Business Development: Gaps noticeable in Abuja and Kaduna.
+
+Furthermore, study reveals minimum Wage Compliance Failure.
+New regulation mandates a minimum salary of $90,000 for all employees in the manufacturing sector.
+Only 292 out of 946 employees (~31%) meet this requirement.
+69% of employees are underpaid, with many in the $20,000–$80,000 salary range.
+
+On Salary Band Distribution, largest group of employees fall into $70,000–$80,000 and $80,000–$90,000 bands. while few employees are in the highest bands ($110,000–$120,000). 
+There is also a clear salary clustering under the $90,000 mark — highlights structural compensation issues.
+
+
+### Recommendations
+1. Based on the findings of the study, the following recommendations are provided management’s attention.
+- There is an urgent need to address Gender Pay Inequality across the regions and departemnts
+- Conduct a detailed compensation audit across all roles and regions.
+- Develop a pay equity policy and align compensation for equal roles across genders.
+
+2. Prioritize these departments:
+- Engineering
+- R&D
+- Legal & Training
+- Business Development
+
+3. Comply with Minimum Wage Regulation by
+- Immediately review employees earning less than $90,000.
+- Developing a phased salary upgrade plan to bring at least all full-time staff into compliance.
+- Engaging finance to forecast impacts on the payroll budget.
+
+4. Enhance Transparency
+- Publish annual diversity and pay equity reports.
+- Introduce salary bands and role leveling to ensure fairness.
+
+5. Create a Gender-Inclusive Workplace
+- Train HR and leadership on unconscious bias and inclusive hiring.
+- Set department-level gender balance goals.
+- Launch mentorship and career advancement programs targeted at underrepresented groups.
 
 
 
