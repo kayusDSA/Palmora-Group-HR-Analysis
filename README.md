@@ -1,5 +1,5 @@
 ### Project Topic 
-Bridging the Gap: A Gender Equality Analysis of The Palmoria Group’s Workforce (Case Study of Palmora Group HR Analysis)
+Bridging the Gap: A Gender Equality Analysis of The Palmoria Group’s Workforce: Case Study of Palmora Group HR Analysis
 
 ### Table of Content
 1. Description
