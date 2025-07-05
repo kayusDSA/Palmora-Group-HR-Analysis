@@ -1,5 +1,5 @@
 ### Project Topic 
-Bridging the Gap: A Gender Equality Analysis of The Palmoria Group’s Workforce: Case Study of Palmora Group HR Analysis
+Bridging the Gap: A Gender Equality Analysis of The Palmoria Group’s Workforce 
 
 ### Table of Content
 1. Description
@@ -12,6 +12,7 @@ Bridging the Gap: A Gender Equality Analysis of The Palmoria Group’s Workforce
 - Data Preparation
 - Text Cleaning
 7. Data Analyses
+  
 i. What is the gender distribution in the organization? Distil to regions and departments
 ii. Show insights on ratings based on gender
 iii. Analyze the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management
@@ -20,6 +21,7 @@ iv. A recent regulation was adopted which requires manufacturing companies to pa
 - Show the pay distribution of employees grouped by a band of $10,000.
 - How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.?
 v. Also visualize this by regions
+
 8. Findings of the Study
 9. Recommendations
 
