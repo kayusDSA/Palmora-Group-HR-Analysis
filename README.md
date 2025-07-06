@@ -1,12 +1,10 @@
-
 ### Table of Content
-1.Project Topic
-2. Description
-3. Project Overview
-4. Data Source
-5. Tool Used
-6. Data Cleaning and Preparation
-7. Exploratory Data Analysis
+1. Project TopicDescription
+2. Project Overview
+3. Data Source
+4. Tool Used
+5. Data Cleaning and Preparation
+6. Exploratory Data Analysis
 - Data Understanding
 - Data Preparation
 - Text Cleaning
