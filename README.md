@@ -1,13 +1,12 @@
-### Project Topic 
-Bridging the Gap: A Gender Equality Analysis of The Palmoria Group’s Workforce 
 
 ### Table of Content
-1. Description
-2. Project Overview
-3. Data Source
-4. Tool Used
-5. Data Cleaning and Preparation
-6. Exploratory Data Analysis
+1.Project Topic
+2. Description
+3. Project Overview
+4. Data Source
+5. Tool Used
+6. Data Cleaning and Preparation
+7. Exploratory Data Analysis
 - Data Understanding
 - Data Preparation
 - Text Cleaning
@@ -22,6 +21,9 @@ iv. A recent regulation was adopted which requires manufacturing companies to pa
 v. Also visualize this by regions
 8. Findings of the Study
 9. Recommendations
+  
+### Project Topic 
+Bridging the Gap: A Gender Equality Analysis of The Palmoria Group’s Workforce 
 
 ### Description
 The Palmoria Group, a Nigeria-based manufacturing company with operations across three regions, is currently facing intense public scrutiny over allegations of gender inequality. The controversy gained widespread attention following a media headline labelling the company “Palmoria, the Manufacturing Patriarchy.” This development poses a significant threat to the company’s long-term vision of regional and international expansion, as well as its corporate reputation. This study will address this issue in order to promote gender equality in Palmoria Group.
@@ -89,10 +91,29 @@ In other to answer the key questions needed to make the business decisions, ther
 
 ### 1.	What is the gender distribution in the organization? Distil to regions and departments
 
-Gender distribution across different regions in a Power BI dashboard, a clustered column chart or a 100% stacked column chart can be used
+<img width="462" alt="GENDER BY DEPT AND REGION" src="https://github.com/user-attachments/assets/b81da9ec-abb5-47f4-a6a2-09dc6d755520" />
+
+The dashboard above presents a clear breakdown of gender distribution across departments and locations (regions) in the organization.
+This matrix shows how gender counts (not broken down by male/female, just total here) are distributed across:
+Regions: Abuja, Kaduna, Lagos
+Departments:
+Human Resources: Largest in Lagos (15 more than Abuja), followed by Abuja and Kaduna
+Product Management: Most populated in Abuja (40) compared to Kaduna (25) and Lagos (24)
+Support and Business Development show fairly balanced distribution across all regions.
+
+**Insight:**
+
+Abuja seems to have a relatively higher representation across most departments.
+
+Some departments (e.g., Legal, Product Management) may be regionally concentrated — worth exploring gender specifics here.
 
 ### 2. Show insights on ratings based on gender 
 
+<img width="455" alt="RATING BY GENDER" src="https://github.com/user-attachments/assets/13e5f1c7-df89-42ca-8fff-426290cd3a5b" />
+<img width="465" alt="GENDER BY RATING" src="https://github.com/user-attachments/assets/8fa4fcde-5b5e-4b20-a3cd-a85b7f7e00e2" />
+
+The above viuals show insight on ratings based on gender. Statistics shows that the number, 212 of male employees are more rated on the average than the female employees at 190. The number of female employees who are rated good (89) are slightly higher than that of male employees at 89.
+Moreover, the number of male employees who are rated poor (70) are more compared to female employees at 58.
 
 ### 3. Analyse the company’s salary structure. Identify if there is a gender pay gap. 
 ### If there is, identify the department and regions that should be the focus of management
