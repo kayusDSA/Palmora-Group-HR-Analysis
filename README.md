@@ -3,12 +3,10 @@
 2. Project Overview
 3. Data Source
 4. Tool Used
-5. Data Cleaning and Preparation
-6. Exploratory Data Analysis
+5. Exploratory Data Analysis
 - Data Understanding
-- Data Preparation
-- Text Cleaning
-7. Data Analyses  
+- Data Cleaning and Preparation
+6. Data Analyses  
 i. What is the gender distribution in the organization? Distil to regions and departments
 ii. Show insights on ratings based on gender
 iii. Analyze the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management
@@ -17,33 +15,35 @@ iv. A recent regulation was adopted which requires manufacturing companies to pa
 - Show the pay distribution of employees grouped by a band of $10,000.
 - How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.?
 v. Also visualize this by regions
-8. Findings of the Study
-9. Recommendations
+7. Findings of the Study
+8. Recommendations
   
 ### Project Topic 
 Bridging the Gap: A Gender Equality Analysis of The Palmoria Group’s Workforce 
 ### Description
-The Palmoria Group, a Nigeria-based manufacturing company with operations across three regions, is currently facing intense public scrutiny over allegations of gender inequality. The controversy gained widespread attention following a media headline labelling the company “Palmoria, the Manufacturing Patriarchy.” This development poses a significant threat to the company’s long-term vision of regional and international expansion, as well as its corporate reputation. This study will address this issue in order to promote gender equality in Palmoria Group.
+The Palmoria Group, a Nigeria-based manufacturing company with operations across three regions, is currently facing intense public scrutiny over allegations of gender inequality. The controversy gained widespread attention following a media headline labelling the company “Palmoria, the Manufacturing Patriarchy.” This development poses a significant threat to the company’s long-term vision of regional and international expansion, as well as its corporate reputation. This study will therefore address this issue in order to promote gender equality in Palmoria Group.
 ### Project Overview 
 This project aims to help Palmoria proactively address internal gender inequalities, close any gender pay gaps, and build a more inclusive, equitable workplace culture in alignment with international best practices—thus safeguarding its brand and preparing it for responsible expansion.
 ### Data Source:
 The Data Source used for this project is an CSV file, which is a secondary.
 ### Tools Used
 Microsoft Power BI (For creating report). It can be [downloaded here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
-### Data Cleaning and Preparation
-
-![DATA OVERVIEW](https://github.com/user-attachments/assets/a55dfbcb-1e9d-45e0-bb8a-ebecbd6ebabb)
-
-From the overview of datasets displayed above, it’s important and necessary we prepare the datasets before analysis and visualization is carried out.
 
 ### Exploratory Data Analysis
 **Data Understanding**
+[Palmoria Group emp-data.csv](https://github.com/user-attachments/files/21127134/Palmoria.Group.emp-data.csv)
+[Palmoria Group Bonus Rules.xlsx](https://github.com/user-attachments/files/21127137/Palmoria.Group.Bonus.Rules.xlsx)
+
 A Microsoft Excel Worksheet (csv) dataset was provided for analysis consisting of 1016 rows and 6 columns.
 The Palmoria Data workbook consist of the Name, Gender, Department, Salary, Location and Rating.
-**Data Preparation**
+From the above datasets, it’s important and necessary that the datasets are cleaned and prepared before analyses and visualizations are carried out. Hence, the data preparation and data cleaning
+
+**Data Cleaning and Preparation**
+
 The Power query tool in Power BI is used to get and transform data for appropriate analysis. Upon clicking Transform Data and navigating to power query window, I explored the data composition in order to know if any necessary data cleaning is needed by leveraging the Data Profiling Distributor feature which gives a summary of the column quality, distribution and profile.
-**Text Cleaning**
+
 **Gender Column**
+
 One of the issues identified during the data cleaning process was with the “Gender” column. The column contains male, female and blanks. So, I replaced the blanks with Undisclosed. The power query replaced values was used. [See preview below;]
 Gender Column Before Cleaning
 
