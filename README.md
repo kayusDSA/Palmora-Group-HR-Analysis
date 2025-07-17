@@ -184,7 +184,24 @@ Tables above shows the number of employees that fall into salary band.
 <img width="702" alt="DASHBOARD" src="https://github.com/user-attachments/assets/903590ce-d062-4fea-9d3f-5cbf94cfb5cc" />
 
 ### 5 Allocate the annual bonus pay to employees based on the performance rating:
-To allocate the annual bonus payable to employees based on the performance rating, 
+
+[Palmoria Group emp-data.csv](https://github.com/user-attachments/files/21299887/Palmoria.Group.emp-data.csv)
+
+[Palmoria Group Bonus Rules.xlsx](https://github.com/user-attachments/files/21299896/Palmoria.Group.Bonus.Rules.xlsx)
+
+To allocate the annual bonus payable to employees based on the performance rating, there is a need merge these two datasets.
+Moreover, the two datasets have a common column header (Department). That is,
+
+Palmoria Group Data: The Department field is a key or an identifier from the Bonus Rules table.
+Bonus Rules Data: This table contains the Depatment, an identifier from the Palmoria Group
+
+<img width="521" height="476" alt="MERGED TABLE" src="https://github.com/user-attachments/assets/02e985c5-3fda-44e6-9868-d5e4ac7f803f" />
+
+Also, the type of merging carried here is a **Left Outer Join** as indicated above:
+One of the joins available in the Merge dialog box in Power Query is a left outer join, which keeps all the rows from the left table (Palmoria Group Employee data) and brings in any matching rows from the right table (Palmoria Group Bonus Rules)
+
+
+
 
 ### Calculate the amount to be paid as a bonus to individual employees
 
