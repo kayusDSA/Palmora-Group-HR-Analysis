@@ -198,7 +198,11 @@ Bonus Rules Data: This table contains the Depatment, an identifier from the Palm
 <img width="521" height="476" alt="MERGED TABLE" src="https://github.com/user-attachments/assets/02e985c5-3fda-44e6-9868-d5e4ac7f803f" />
 
 Also, the type of merging carried here is a **Left Outer Join** as indicated above:
-One of the joins available in the Merge dialog box in Power Query is a left outer join, which keeps all the rows from the left table (Palmoria Group Employee data) and brings in any matching rows from the right table (Palmoria Group Bonus Rules)
+One of the joins available in the Merge dialog box in Power Query is a left outer join, which keeps all the rows from the left table (Palmoria Group Employee data) and brings in any matching rows from the right table (Palmoria Group Bonus Rules).
+
+<img width="737" height="372" alt="MERGED RESULT TABLE" src="https://github.com/user-attachments/assets/0dbc5a22-49ad-4b7b-bb35-73fee780ecfe" />
+
+### Bonus Rate 
 
 
 
