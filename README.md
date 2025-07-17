@@ -14,7 +14,12 @@ iv. A recent regulation was adopted which requires manufacturing companies to pa
 - Does Palmoria meet this requirement?
 - Show the pay distribution of employees grouped by a band of $10,000.
 - How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.?
-v. Also visualize this by regions
+v. Allocate the annual bonus pay to employees based on the
+   performance rating by 
+- Calculate the amount to be paid as a bonus to individual employees
+- Calculate the total amount to be paid to individual employees (salary inclusive of bonus)
+- Total amount to be paid out per region and company-wide
+vi. Also visualize this by regions
 7. Findings of the Study
 8. Recommendations
   
@@ -177,6 +182,19 @@ Tables above shows the number of employees that fall into salary band.
 <img width="347" alt="SALARY BAND BY REGION" src="https://github.com/user-attachments/assets/83b353ae-bb44-4e78-b4e5-876a9d5a641d" />
 
 <img width="702" alt="DASHBOARD" src="https://github.com/user-attachments/assets/903590ce-d062-4fea-9d3f-5cbf94cfb5cc" />
+
+### 5 Allocate the annual bonus pay to employees based on the performance rating:
+To allocate the annual bonus payable to employees based on the performance rating, 
+
+### Calculate the amount to be paid as a bonus to individual employees
+
+### Calculate the total amount to be paid to individual employees (salary inclusive of bonus)
+
+### Total amount to be paid out per region and company-wide
+
+
+
+
 
 ### Findings of the Study
 The study reveals that there is a Gender Imbalance. That is, gender distribution varies significantly across regions and departments:
