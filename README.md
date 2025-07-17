@@ -203,11 +203,10 @@ One of the joins available in the Merge dialog box in Power Query is a left oute
 <img width="737" height="372" alt="MERGED RESULT TABLE" src="https://github.com/user-attachments/assets/0dbc5a22-49ad-4b7b-bb35-73fee780ecfe" />
 
 ### Bonus Rate 
-
-
-
+<img width="461" height="455" alt="BONUS RATE " src="https://github.com/user-attachments/assets/cfdfdd07-d021-4918-8c00-2d2962409cf8" />
 
 ### Calculate the amount to be paid as a bonus to individual employees
+
 
 ### Calculate the total amount to be paid to individual employees (salary inclusive of bonus)
 
