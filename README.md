@@ -207,14 +207,19 @@ One of the joins available in the Merge dialog box in Power Query is a left oute
 
 ### Calculate the amount to be paid as a bonus to individual employees
 
+<img width="481" height="386" alt="INDIVIDUAL AMOUNT AS BONUS1" src="https://github.com/user-attachments/assets/29d0bca9-3068-4dd1-9d59-1dad0e34c5b4" />
+The Table above shows the amount to be paid as a bonus to individual employees in Palmoria Group Company.
 
 ### Calculate the total amount to be paid to individual employees (salary inclusive of bonus)
 
+<img width="470" height="397" alt="TOTAL AMOUNT TO BE PAID TO EMPLOYEES" src="https://github.com/user-attachments/assets/82fc400f-5b21-4a88-99d7-50b129ce86f6" />
+Statistics from the Table above reveals the total amount to be paid to individual employees (salary inclusive of bonus).
+
 ### Total amount to be paid out per region and company-wide
 
-
-
-
+<img width="508" height="275" alt="PAYMENT BY REGION2" src="https://github.com/user-attachments/assets/71ab8212-202b-4dd7-a570-ee9f584eeb2a" />
+<img width="486" height="295" alt="PAYMENT BY REGION TABLE" src="https://github.com/user-attachments/assets/8a1c3621-be57-4f0a-9e78-48f7f3ac43a2" />
+The total amount to be paid out per region and company-wide is shown from the bar chart and the table above. Statistics shows that Kaduna paid out the highest total amount ($137,890,568.33) to all the employees followed by Abuja ($124,719,022.34) whereas, Lagos state paid out the lowest total amount ($98,050,321.82) to her employees.
 
 ### Findings of the Study
 The study reveals that there is a Gender Imbalance. That is, gender distribution varies significantly across regions and departments:
@@ -225,6 +230,7 @@ Engineering: Worst affected (up to 34.63% gap in Kaduna).
 Research & Development: Over 19% gap in Abuja and Lagos.
 Legal and Training: High disparities in Abuja and Kaduna.
 Services and Business Development: Gaps noticeable in Abuja and Kaduna.
+Findings shows that Kaduna paid out the highest total amount ($137,890,568.33) to all her employees.
 Furthermore, study reveals minimum Wage Compliance Failure.
 New regulation mandates a minimum salary of $90,000 for all employees in the manufacturing sector.
 Only 292 out of 946 employees (~31%) meet this requirement.
