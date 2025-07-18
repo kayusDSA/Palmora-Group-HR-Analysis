@@ -189,7 +189,11 @@ Tables above shows the number of employees that fall into salary band.
 
 [Palmoria Group Bonus Rules.xlsx](https://github.com/user-attachments/files/21299896/Palmoria.Group.Bonus.Rules.xlsx)
 
-To allocate the annual bonus payable to employees based on the performance rating, there is a need merge these two datasets.
+<img width="670" height="356" alt="MODEL" src="https://github.com/user-attachments/assets/0945f6a6-fb45-4bfc-ad68-ef1bcf4ab24b" />
+
+This Model shows that there is a relationship between the Employee Data (HR ANALYSIS) and the Bonus Rules. This gives rise to merging the two tables.
+
+Hence, to allocate the annual bonus payable to employees based on the performance rating, there is a need merge these two datasets.
 Moreover, the two datasets have a common column header (Department). That is,
 
 Palmoria Group Data: The Department field is a key or an identifier from the Bonus Rules table.
@@ -236,6 +240,7 @@ New regulation mandates a minimum salary of $90,000 for all employees in the man
 Only 292 out of 946 employees (~31%) meet this requirement.
 69% of employees are underpaid, with many in the $20,000–$80,000 salary range.
 On Salary Band Distribution, largest group of employees fall into $70,000–$80,000 and $80,000–$90,000 bands. while few employees are in the highest bands ($110,000–$120,000). There is also a clear salary clustering under the $90,000 mark — highlights structural compensation issues.
+
 ### Recommendations
 1. Based on the findings of the study, the following recommendations are provided management’s attention.
 - There is an urgent need to address Gender Pay Inequality across the regions and departemnts
@@ -253,7 +258,9 @@ On Salary Band Distribution, largest group of employees fall into $70,000–$80,
 4. Enhance Transparency
 - Publish annual diversity and pay equity reports.
 - Introduce salary bands and role leveling to ensure fairness.
-5. Create a Gender-Inclusive Workplace
+5. Implement performance-based bonus models company-wide, and ensure regional leadership understands the performance expectations tied to payouts.
+- Introduce annual payroll and performance reviews across all regions to keep compensation aligned with strategic and financial goals.
+6. Create a Gender-Inclusive Workplace
 - Train HR and leadership on unconscious bias and inclusive hiring.
 - Set department-level gender balance goals.
 - Launch mentorship and career advancement programs targeted at underrepresented groups.
